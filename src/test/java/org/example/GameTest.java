@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class GameTest {
     @Test
-    void game_enterDExpectsMoveRight(){
+    void move_enterDExpectsMoveRight(){
         //Given
         char moveChar = 'D';
         int[] coordinates = new int[]{0,0};
@@ -17,7 +17,7 @@ public class GameTest {
     }
 
     @Test
-    void game_enterAExpectsMoveLeft(){
+    void move_enterAExpectsMoveLeft(){
         //Given
         char moveChar = 'A';
         int[] coordinates = new int[]{0,0};
@@ -29,7 +29,7 @@ public class GameTest {
     }
 
     @Test
-    void game_enterSExpectsMoveDown(){
+    void move_enterSExpectsMoveDown(){
         //Given
         char moveChar = 'S';
         int[] coordinates = new int[]{0,0};
@@ -41,7 +41,7 @@ public class GameTest {
     }
 
     @Test
-    void game_enterWExpectsMoveUp(){
+    void move_enterWExpectsMoveUp(){
         //Given
         char moveChar = 'W';
         int[] coordinates = new int[]{0,0};
