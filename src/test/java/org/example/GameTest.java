@@ -52,3 +52,5 @@ public class GameTest {
         Assertions.assertArrayEquals(expCoordinates, actCoordinates);
     }
 }
+
+
